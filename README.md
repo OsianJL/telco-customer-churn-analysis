@@ -4,13 +4,13 @@ End-to-end analysis of the Telco Customer Churn dataset: data cleaning, EDA, chu
 
 ## Repository structure
 
-- `01_EDA_y_Limpieza.ipynb`  
+- `01_eda_and_cleaning.ipynb`  
   Data loading, cleaning, feature engineering, and exploratory analysis.
 
-- `02_Modelos.ipynb`  
+- `02_churn_models.ipynb`  
   Supervised modeling for churn prediction (train/test, evaluation metrics, model comparison).
 
-- `03_Clustering.ipynb`  
+- `03_customer_segmentation.ipynb`  
   Unsupervised segmentation (clustering) to identify customer groups and insights.
 
 - `Telco_customer_churn_DATASET.xlsx`  
@@ -26,9 +26,9 @@ End-to-end analysis of the Telco Customer Churn dataset: data cleaning, EDA, chu
    - scikit-learn
    - imbalanced-learn (if used)
 4. Open Jupyter and run notebooks in order:
-   - `01_EDA_y_Limpieza.ipynb`
-   - `02_Modelos.ipynb`
-   - `03_Clustering.ipynb`
+   - `01_eda_and_cleaning.ipynb`
+   - `02_churn_models.ipynb`
+   - `03_customer_segmentation.ipynb`
 
 > Note: Some intermediate artifacts (e.g., `.pkl` files) are not tracked to keep the repo clean and reproducible.  
 > If a notebook expects a `.pkl`, re-run the previous notebook to generate it.
