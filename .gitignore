@@ -22,3 +22,6 @@ Thumbs.db
 
 # Serialized objects (reproducibility)
 *.pkl
+
+# PDFs
+*.pdf
